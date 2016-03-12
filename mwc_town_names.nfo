@@ -4,10 +4,10 @@
 // Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum imagefile depth xpos ypos xsize ysize xrel yrel zoom flags
+    0 * 4	 24 00 00 00
 
-0 * 4 \d36 
 
-1 * 105 14 "C" "INFO" 
+    1 * 105	 14 "C" "INFO" 
 "T" "URL_" 7F "https://github.com/GameMaker2k/MidWest-Towns" 00 
 "B" "VRSN" \w4 \dx00000002 
 "B" "MINV" \w4 \dx00000001 
@@ -16,8 +16,8 @@
 "B" "BLTR" \w1 "8" 
 00 
 00 
-2 * 83 08 08 "JTP\00" "Midwestern Town Names v1.2" 00 "\8ECity names from the midwestern region of the us." 00 
-3 * 2013 0F 00 	// **townname #1**
+    2 * 83	 08 08 "JTP\00" "Midwestern Town Names v1.2" 00 "\8ECity names from the midwestern region of the us." 00 
+    3 * 2013	 0F 00 	// **townname #1**
 01 BC 00 08 01 "Yorktown" 00 
 01 "Woonsocket" 00 
 01 "Wolverine" 00 
@@ -208,7 +208,7 @@
 01 "Alanson" 00 
 
 
-4 * 2065 0F 01 	// **townname #2**
+    4 * 2065	 0F 01 	// **townname #2**
 01 BC 00 08 01 "York" 00 
 01 "Woodward" 00 
 01 "Wolsey" 00 
@@ -399,7 +399,7 @@
 01 "Akron" 00 
 
 
-5 * 2076 0F 02 	// **townname #3**
+    5 * 2076	 0F 02 	// **townname #3**
 01 BC 00 08 01 "Yellow Springs" 00 
 01 "Woodville" 00 
 01 "Wolfhurst" 00 
@@ -590,7 +590,7 @@
 01 "Akeley" 00 
 
 
-6 * 2076 0F 03 	// **townname #4**
+    6 * 2076	 0F 03 	// **townname #4**
 01 BC 00 08 01 "Yates Center" 00 
 01 "Woodson Terrace" 00 
 01 "Wolf Lake" 00 
@@ -781,7 +781,7 @@
 01 "Aitkin" 00 
 
 
-7 * 2139 0F 04 	// **townname #5**
+    7 * 2139	 0F 04 	// **townname #5**
 01 BC 00 08 01 "Yale" 00 
 01 "Woods Heights" 00 
 01 "Wolbach" 00 
@@ -972,7 +972,7 @@
 01 "Ahnapee" 00 
 
 
-8 * 2062 0F 05 	// **townname #6**
+    8 * 2062	 0F 05 	// **townname #6**
 01 BC 00 08 01 "Yates City" 00 
 01 "Woodstock" 00 
 01 "Wolf River" 00 
@@ -1163,7 +1163,7 @@
 01 "Akan" 00 
 
 
-9 * 2074 0F 06 	// **townname #7**
+    9 * 2074	 0F 06 	// **townname #7**
 01 BC 00 08 01 "Wynnedale" 00 
 01 "Woodmere" 00 
 01 "Witt" 00 
@@ -1354,7 +1354,7 @@
 01 "Afton" 00 
 
 
-10 * 2054 0F 07 	// **townname #8**
+   10 * 2054	 0F 07 	// **townname #8**
 01 BC 00 08 01 "Yankton" 00 
 01 "Woodson" 00 
 01 "Wolcottville" 00 
@@ -1545,7 +1545,7 @@
 01 "Airport Drive" 00 
 
 
-11 * 2087 0F 08 	// **townname #9**
+   11 * 2087	 0F 08 	// **townname #9**
 01 BC 00 08 01 "Yankee Hill" 00 
 01 "Woodsfield" 00 
 01 "Wolcott" 00 
@@ -1736,7 +1736,7 @@
 01 "Ainsworth" 00 
 
 
-12 * 2124 0F 09 	// **townname #10**
+   12 * 2124	 0F 09 	// **townname #10**
 01 BC 00 08 01 "Wyndmere" 00 
 01 "Woodlawn" 00 
 01 "Withee" 00 
@@ -1927,7 +1927,7 @@
 01 "Affton" 00 
 
 
-13 * 2028 0F 0A 	// **townname #11**
+   13 * 2028	 0F 0A 	// **townname #11**
 01 BC 00 08 01 "Wykoff" 00 
 01 "Woodland Hills" 00 
 01 "Wisner" 00 
@@ -2118,7 +2118,7 @@
 01 "Adrian" 00 
 
 
-14 * 2120 0F 0B 	// **townname #12**
+   14 * 2120	 0F 0B 	// **townname #12**
 01 BC 00 08 01 "Xenia" 00 
 01 "Woodruff" 00 
 01 "Woden" 00 
@@ -2309,7 +2309,7 @@
 01 "Agra" 00 
 
 
-15 * 2106 0F 0C 	// **townname #13**
+   15 * 2106	 0F 0C 	// **townname #13**
 01 BC 00 08 01 "Wyocena" 00 
 01 "Woodmohr" 00 
 01 "Wittenberg" 00 
@@ -2500,7 +2500,7 @@
 01 "Agency" 00 
 
 
-16 * 2043 0F 0D 	// **townname #14**
+   16 * 2043	 0F 0D 	// **townname #14**
 01 BD 00 08 01 "Zilwaukee" 00 
 01 "Wrightstown" 00 
 01 "Woodburn" 00 
@@ -2692,7 +2692,7 @@
 01 "Addison" 00 
 
 
-17 * 2085 0F 0E 	// **townname #15**
+   17 * 2085	 0F 0E 	// **townname #15**
 01 BD 00 08 01 "Zeeland" 00 
 01 "Wright City" 00 
 01 "Woodboro" 00 
@@ -2884,7 +2884,7 @@
 01 "Adams" 00 
 
 
-18 * 2094 0F 0F 	// **townname #16**
+   18 * 2094	 0F 0F 	// **townname #16**
 01 BD 00 08 01 "Youngstown" 00 
 01 "Worcester" 00 
 01 "Wonder Lake" 00 
@@ -3076,7 +3076,7 @@
 01 "Abercrombie" 00 
 
 
-19 * 2081 0F 10 	// **townname #17**
+   19 * 2081	 0F 10 	// **townname #17**
 01 BD 00 08 01 "Zionsville" 00 
 01 "Wyandotte" 00 
 01 "Woodhull" 00 
@@ -3268,7 +3268,7 @@
 01 "Adell" 00 
 
 
-20 * 2119 0F 11 	// **townname #18**
+   20 * 2119	 0F 11 	// **townname #18**
 01 BD 00 08 01 "Zumbrota" 00 
 01 "Wyatt" 00 
 01 "Woodland Beach" 00 
@@ -3460,7 +3460,7 @@
 01 "Adena" 00 
 
 
-21 * 2058 0F 12 	// **townname #19**
+   21 * 2058	 0F 12 	// **townname #19**
 01 BD 00 08 01 "Zion" 00 
 01 "Wyalusing" 00 
 01 "Woodhaven" 00 
@@ -3652,7 +3652,7 @@
 01 "Adel" 00 
 
 
-22 * 2117 0F 13 	// **townname #20**
+   22 * 2117	 0F 13 	// **townname #20**
 01 BC 00 08 01 "Wymore" 00 
 01 "Woodland Park" 00 
 01 "Withamsville" 00 
@@ -3843,7 +3843,7 @@
 01 "Advance" 00 
 
 
-23 * 2040 0F 14 	// **townname #21**
+   23 * 2040	 0F 14 	// **townname #21**
 01 BD 00 08 01 "Zimmerman" 00 
 01 "Wyaconda" 00 
 01 "Woodbury" 00 
@@ -4035,7 +4035,7 @@
 01 "Addyston" 00 
 
 
-24 * 2105 0F 15 	// **townname #22**
+   24 * 2105	 0F 15 	// **townname #22**
 01 BD 00 08 01 "Zumbro Falls" 00 
 01 "Wyanet" 00 
 01 "Woodland" 00 
@@ -4227,7 +4227,7 @@
 01 "Adelphi" 00 
 
 
-25 * 1980 0F 16 	// **townname #23**
+   25 * 1980	 0F 16 	// **townname #23**
 01 BD 00 08 01 "Yutan" 00 
 01 "Worth" 00 
 01 "Wood" 00 
@@ -4419,7 +4419,7 @@
 01 "Abilene" 00 
 
 
-26 * 2141 0F 17 	// **townname #24**
+   26 * 2141	 0F 17 	// **townname #24**
 01 BC 00 08 01 "Wyoming" 00 
 01 "Woodridge" 00 
 01 "Wixom" 00 
@@ -4610,7 +4610,7 @@
 01 "Agenda" 00 
 
 
-27 * 2061 0F 18 	// **townname #25**
+   27 * 2061	 0F 18 	// **townname #25**
 01 BD 00 08 01 "Zap" 00 
 01 "Worthington" 00 
 01 "Wood Lake" 00 
@@ -4802,7 +4802,7 @@
 01 "Ackley" 00 
 
 
-28 * 2008 0F 19 	// **townname #26**
+   28 * 2008	 0F 19 	// **townname #26**
 01 BD 00 08 01 "Zeba" 00 
 01 "Wrenshall" 00 
 01 "Woodbine" 00 
@@ -4994,7 +4994,7 @@
 01 "Adair" 00 
 
 
-29 * 2075 0F 1A 	// **townname #27**
+   29 * 2075	 0F 1A 	// **townname #27**
 01 BD 00 08 01 "Zanesville" 00 
 01 "Worthing" 00 
 01 "Wood Heights" 00 
@@ -5186,7 +5186,7 @@
 01 "Abrams" 00 
 
 
-30 * 2142 0F 1B 	// **townname #28**
+   30 * 2142	 0F 1B 	// **townname #28**
 01 BD 00 08 01 "Zeigler" 00 
 01 "Wright-Patterson AFB" 00 
 01 "Woodbourne-Hyde Park" 00 
@@ -5378,7 +5378,7 @@
 01 "Addieville" 00 
 
 
-31 * 2042 0F 1C 	// **townname #29**
+   31 * 2042	 0F 1C 	// **townname #29**
 01 BD 00 08 01 "Zaleski" 00 
 01 "Wortham" 00 
 01 "Wood Dale" 00 
@@ -5570,7 +5570,7 @@
 01 "Abingdon" 00 
 
 
-32 * 2096 0F 1D 	// **townname #30**
+   32 * 2096	 0F 1D 	// **townname #30**
 01 BD 00 08 01 "Zearing" 00 
 01 "Wounded Knee" 00 
 01 "Wood River" 00 
@@ -5762,7 +5762,7 @@
 01 "Ada" 00 
 
 
-33 * 2037 0F 1E 	// **townname #31**
+   33 * 2037	 0F 1E 	// **townname #31**
 01 BD 00 08 01 "Ypsilanti" 00 
 01 "Worden" 00 
 01 "Wonewoc" 00 
@@ -5954,7 +5954,7 @@
 01 "Aberdeen" 00 
 
 
-34 * 2046 0F 1F 	// **townname #32**
+   34 * 2046	 0F 1F 	// **townname #32**
 01 BD 00 08 01 "Yorkville" 00 
 01 "Wooster" 00 
 01 "Wolverine Lake" 00 
@@ -6146,7 +6146,7 @@
 01 "Abbotsford" 00 
 
 
-35 * 70 0F 20 	// MWC_TOWNS
+   35 * 70	 0F 20 	// MWC_TOWNS
 01 20 08 05 81 00 
 81 01 
 81 02 
@@ -6181,7 +6181,7 @@
 81 1F 
 
 
-36 * 25 0F A1 
+   36 * 25	 0F A1 
 7F "Midwestern USA" 00 
 00 
 01 01 0D 01 81 20 
